@@ -1,0 +1,12 @@
+{
+  "actual_input": "",
+  "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source_record_sha256": "cdc92c05eaab15a959b9e2684c48b547d8816cb23c6ba4f3a3d1d0c8894bdac5",
+  "source_case": "standard",
+  "redirection_property": "LocalDebuggerCommandArguments",
+  "redirection_candidate": "",
+  "visual_studio_redirection_status": "not_needed",
+  "source_record_filename": "run_05_default_sum_standard.log.txt",
+  "source_record_in_repository": false,
+  "provenance_note": "Local source path omitted for sharing; input.txt is preserved byte-for-byte."
+}

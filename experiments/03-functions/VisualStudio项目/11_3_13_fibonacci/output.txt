@@ -1,0 +1,2 @@
+Enter n (1 to 30): Series: 1 1 2 3 5 8
+F(6) = 8

@@ -1,0 +1,1 @@
+Enter two unsigned short integers: Result: 5

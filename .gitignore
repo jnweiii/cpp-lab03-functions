@@ -1,0 +1,24 @@
+# Visual Studio local state and build artifacts
+.vs/
+**/.vs/
+**/build/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+*.vcxproj.user
+*.suo
+*.user
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.log
+*.tmp
+*.bak
+*.cache

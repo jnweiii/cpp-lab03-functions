@@ -1,0 +1,12 @@
+{
+  "actual_input": "",
+  "input_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source_record_sha256": "bee07528e9acdacd674e9ef2f0cfb1738e43dd18f4f9b4b0da3a87cb2c3fb307",
+  "source_case": "standard",
+  "redirection_property": "LocalDebuggerCommandArguments",
+  "redirection_candidate": "",
+  "visual_studio_redirection_status": "not_needed",
+  "source_record_filename": "run_04_add_overload_standard.log.txt",
+  "source_record_in_repository": false,
+  "provenance_note": "Local source path omitted for sharing; input.txt is preserved byte-for-byte."
+}

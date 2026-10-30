@@ -1,0 +1,37 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12324.101
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_fact_string", "01_fact_string\01_fact_string.vcxproj", "{74F03980-C0D1-5A11-94ED-6158DA27EE9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_fact_missing", "02_fact_missing\02_fact_missing.vcxproj", "{6BCCD40A-6909-5AED-8F3D-AF9CFB7426C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_fact_extra", "03_fact_extra\03_fact_extra.vcxproj", "{8EB2595A-E1FD-53A3-9F12-80E080E3D730}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_fact_double", "04_fact_double\04_fact_double.vcxproj", "{13C471CA-9D91-55C2-A1B7-FC1AC67141BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_default_not_trailing", "05_default_not_trailing\05_default_not_trailing.vcxproj", "{7A8CBC98-DCB3-5982-BED6-B332841B2755}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_default_middle_omitted", "06_default_middle_omitted\06_default_middle_omitted.vcxproj", "{205A8495-7CC1-5E87-BB4C-24CB109216E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F03980-C0D1-5A11-94ED-6158DA27EE9E}.Debug|x64.ActiveCfg = Debug|x64
+		{74F03980-C0D1-5A11-94ED-6158DA27EE9E}.Debug|x64.Build.0 = Debug|x64
+		{6BCCD40A-6909-5AED-8F3D-AF9CFB7426C8}.Debug|x64.ActiveCfg = Debug|x64
+		{6BCCD40A-6909-5AED-8F3D-AF9CFB7426C8}.Debug|x64.Build.0 = Debug|x64
+		{8EB2595A-E1FD-53A3-9F12-80E080E3D730}.Debug|x64.ActiveCfg = Debug|x64
+		{8EB2595A-E1FD-53A3-9F12-80E080E3D730}.Debug|x64.Build.0 = Debug|x64
+		{13C471CA-9D91-55C2-A1B7-FC1AC67141BE}.Debug|x64.ActiveCfg = Debug|x64
+		{13C471CA-9D91-55C2-A1B7-FC1AC67141BE}.Debug|x64.Build.0 = Debug|x64
+		{7A8CBC98-DCB3-5982-BED6-B332841B2755}.Debug|x64.ActiveCfg = Debug|x64
+		{7A8CBC98-DCB3-5982-BED6-B332841B2755}.Debug|x64.Build.0 = Debug|x64
+		{205A8495-7CC1-5E87-BB4C-24CB109216E4}.Debug|x64.ActiveCfg = Debug|x64
+		{205A8495-7CC1-5E87-BB4C-24CB109216E4}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

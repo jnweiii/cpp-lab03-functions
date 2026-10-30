@@ -1,0 +1,12 @@
+{
+  "actual_input": "7 3\n",
+  "input_sha256": "82001c16a68129ec5cc4b6872b731382b3fca6743cb12e347c4abc53461c01d4",
+  "source_record_sha256": "9640c774a9a66ce31ef9f663e439c8febb8b8cb0aed0c72d95d4344121a14c85",
+  "source_case": "different",
+  "redirection_property": "LocalDebuggerCommandArguments",
+  "redirection_candidate": "< \"$(ProjectDir)input.txt\"",
+  "visual_studio_redirection_status": "requires_actual_ide_verification",
+  "source_record_filename": "run_06_inline_max_different.log.txt",
+  "source_record_in_repository": false,
+  "provenance_note": "Local source path omitted for sharing; input.txt is preserved byte-for-byte."
+}
