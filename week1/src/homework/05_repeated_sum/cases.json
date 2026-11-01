@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "program_id": "05_repeated_sum",
+  "source_sha256": "611edc56ea2b8b3a94e7161d9f96b523a1c09a28f140f63d10177e44b9079312",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "sample_2_plus_22_plus_222",
+      "stdin": "3 2\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Series: 2 + 22 + 222\nSum: 246\n"
+    },
+    {
+      "name": "one_term",
+      "stdin": "1 9\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Series: 9\nSum: 9\n"
+    },
+    {
+      "name": "largest_supported_input",
+      "stdin": "18 9\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Series: 9 + 99 + 999 + 9999 + 99999 + 999999 + 9999999 + 99999999 + 999999999 + 9999999999 + 99999999999 + 999999999999 + 9999999999999 + 99999999999999 + 999999999999999 + 9999999999999999 + 99999999999999999 + 999999999999999999\nSum: 1111111111111111092\n"
+    },
+    {
+      "name": "zero_terms",
+      "stdin": "0 2\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Use n from 1 to 18 and a digit a from 1 to 9.\n"
+    },
+    {
+      "name": "not_a_single_digit",
+      "stdin": "3 12\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Use n from 1 to 18 and a digit a from 1 to 9.\n"
+    },
+    {
+      "name": "invalid_input",
+      "stdin": "abc\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter n and a (1 <= n <= 18, 1 <= a <= 9): Use n from 1 to 18 and a digit a from 1 to 9.\n"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Enter n and a (1 <= n <= 18, 1 <= a <= 9): Series: 2 + 22 + 222
+Sum: 246

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "program_id": "01_bonus",
+  "source_sha256": "1e3c902aa3b50c233cd766e66a677089b4b52a1e83629c0ea18caa0961ce2146",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "zero_profit",
+      "stdin": "0\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 0.00\n"
+    },
+    {
+      "name": "first_threshold",
+      "stdin": "100000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 10000.00\n"
+    },
+    {
+      "name": "second_threshold",
+      "stdin": "200000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 17500.00\n"
+    },
+    {
+      "name": "third_threshold",
+      "stdin": "400000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 27500.00\n"
+    },
+    {
+      "name": "fourth_threshold",
+      "stdin": "600000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 33500.00\n"
+    },
+    {
+      "name": "fifth_threshold",
+      "stdin": "1000000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 39500.00\n"
+    },
+    {
+      "name": "above_one_million_sample",
+      "stdin": "1200000\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter monthly profit (yuan): Bonus (yuan): 41500.00\n"
+    },
+    {
+      "name": "negative_profit",
+      "stdin": "-1\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter monthly profit (yuan): Profit must be a non-negative number.\n"
+    },
+    {
+      "name": "invalid_input",
+      "stdin": "abc\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter monthly profit (yuan): Profit must be a non-negative number.\n"
+    }
+  ]
+}

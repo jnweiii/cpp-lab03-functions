@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "12_comparison",
+  "cases": [
+    {
+      "name": "three_relations",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "Is 1 equal to 2?: 0\nIs 1 less than 2?: 1\nIs 1 less than 2 and 3 less than 4?: 1\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

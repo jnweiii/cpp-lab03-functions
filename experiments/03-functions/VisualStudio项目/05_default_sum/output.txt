@@ -1,2 +1,0 @@
-sum is:5050
-sum is:55

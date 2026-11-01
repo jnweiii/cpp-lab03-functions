@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "01_read_integer",
+  "cases": [
+    {
+      "name": "replace_radius",
+      "stdin": "5\n8\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Please enter the radius!\nThe radius is:5\nPI is:3.14\nPlease enter a different radius!\nNow the radius is changed to:8\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "06_integer_literals",
+  "cases": [
+    {
+      "name": "three_bases",
+      "stdin": "123 173 7B\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "123;173;7b\n123;173;7b\n123;173;7b\n123;173;7b\n4294967295;37777777777;ffffffff\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

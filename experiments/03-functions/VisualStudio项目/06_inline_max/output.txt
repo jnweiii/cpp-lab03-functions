@@ -1,1 +1,0 @@
-Input two data: The max is:7

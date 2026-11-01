@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "07_floating_types",
+  "cases": [
+    {
+      "name": "areas_and_type_sizes",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout_regex": "\\AnAreaFloat = 95\\.0332 , sizeof\\(nAreaFloat\\) = \\d+\\nnAreaDouble = 95\\.0332 , sizeof\\(nAreaDouble\\) = \\d+\\nnAreaLDouble = 95\\.0332 , sizeof\\(nAreaLDouble\\) = \\d+\\n\\Z"
+    }
+  ],
+  "execution_status": "not_run"
+}

@@ -1,2 +1,0 @@
-Enter two integers: GCD: 6
-LCM: 36

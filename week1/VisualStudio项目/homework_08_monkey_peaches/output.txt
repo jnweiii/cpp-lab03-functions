@@ -1,0 +1,11 @@
+Day 10: 1
+Day 9: 4
+Day 8: 10
+Day 7: 22
+Day 6: 46
+Day 5: 94
+Day 4: 190
+Day 3: 382
+Day 2: 766
+Day 1: 1534
+Peaches on day 1: 1534

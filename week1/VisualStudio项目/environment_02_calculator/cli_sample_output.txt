@@ -1,0 +1,3 @@
+Enter x operator y (0 $ 0 to exit):
+Result: 15
+Result: 2.5

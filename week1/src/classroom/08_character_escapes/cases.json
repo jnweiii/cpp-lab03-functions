@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "08_character_escapes",
+  "cases": [
+    {
+      "name": "raw_control_bytes",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "A a\none\ttwo\tthree\n123\b\b45\nAlert\u0007\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

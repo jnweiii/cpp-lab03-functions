@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project_id": "10_arithmetic",
+  "cases": [
+    {
+      "name": "arithmetic_and_cpp17_order",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "int/int, 24/5= 4\nint/int, 24%5= 4\nint/int, 24%(-5)= 4\ndouble/double, 24/5= 4.8\ndouble/int, 24/5= -4.8\nint/double, 24/5= 4.8\nval1 = 5\n5, 7, 7, 5\nval1 = 5\n5, 7, 7, 5\n",
+      "required_language_standard": "C++17"
+    }
+  ],
+  "execution_status": "not_run"
+}

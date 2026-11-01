@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "02_named_constant",
+  "cases": [
+    {
+      "name": "constant_unchanged",
+      "stdin": "5\n8\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Please enter the radius!\nThe radius is:5\nPI is:3.14159\nPlease enter a different radius!\nNow the radius is changed to:8\nPI is still:3.14159\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

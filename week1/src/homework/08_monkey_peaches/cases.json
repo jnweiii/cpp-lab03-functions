@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "program_id": "08_monkey_peaches",
+  "source_sha256": "7693cdc6e4af6935ca3f1b08814034e100ca0c0387b18402138b89d5461f6104",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "reverse_nine_days",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "Day 10: 1\nDay 9: 4\nDay 8: 10\nDay 7: 22\nDay 6: 46\nDay 5: 94\nDay 4: 190\nDay 3: 382\nDay 2: 766\nDay 1: 1534\nPeaches on day 1: 1534\n"
+    }
+  ]
+}

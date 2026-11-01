@@ -1,0 +1,17 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12324.101
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "classroom_07_floating_types", "classroom_07_floating_types.vcxproj", "{B2360631-853D-5D81-AD84-E2D61DB31F52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2360631-853D-5D81-AD84-E2D61DB31F52}.Debug|x64.ActiveCfg = Debug|x64
+		{B2360631-853D-5D81-AD84-E2D61DB31F52}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "09_bool_conversion",
+  "cases": [
+    {
+      "name": "bool_to_int_and_back",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "bool value bV1 = 1\nbool value bV2 = 0\nint value nV1 = 1\nbool value bV1 = 0\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

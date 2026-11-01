@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_id": "02_calculator",
+  "cases": [
+    {
+      "name": "four_operations",
+      "stdin": "12 + 3\n12 - 3\n12 * 3\n10 / 4\n0 $ 0\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter x operator y (0 $ 0 to exit):\nResult: 15\nResult: 9\nResult: 36\nResult: 2.5\n"
+    },
+    {
+      "name": "zero_divisor_then_continue",
+      "stdin": "8 / 0\n8 / 2\n0 $ 0\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter x operator y (0 $ 0 to exit):\nDivision by zero.\nResult: 4\n"
+    },
+    {
+      "name": "unknown_operator_then_exit",
+      "stdin": "3 ? 2\n0 $ 0\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter x operator y (0 $ 0 to exit):\nUnknown operator.\n"
+    },
+    {
+      "name": "invalid_input",
+      "stdin": "x\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter x operator y (0 $ 0 to exit):\nInvalid input.\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

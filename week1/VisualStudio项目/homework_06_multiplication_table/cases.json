@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "program_id": "06_multiplication_table",
+  "source_sha256": "ac4606d71f0a7e8a5756f95eabb7937e403aebab19dcac9f242e430b064b744b",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "full_table",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "9 x 9 multiplication table\n1*1=1\n1*2=2\t2*2=4\n1*3=3\t2*3=6\t3*3=9\n1*4=4\t2*4=8\t3*4=12\t4*4=16\n1*5=5\t2*5=10\t3*5=15\t4*5=20\t5*5=25\n1*6=6\t2*6=12\t3*6=18\t4*6=24\t5*6=30\t6*6=36\n1*7=7\t2*7=14\t3*7=21\t4*7=28\t5*7=35\t6*7=42\t7*7=49\n1*8=8\t2*8=16\t3*8=24\t4*8=32\t5*8=40\t6*8=48\t7*8=56\t8*8=64\n1*9=9\t2*9=18\t3*9=27\t4*9=36\t5*9=45\t6*9=54\t7*9=63\t8*9=72\t9*9=81\n"
+    }
+  ]
+}

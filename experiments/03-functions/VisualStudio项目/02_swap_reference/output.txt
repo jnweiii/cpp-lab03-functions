@@ -1,2 +1,0 @@
-Enter a and b: After swap(a, a): a=3, b=7
-After swap(a, b): a=7, b=3

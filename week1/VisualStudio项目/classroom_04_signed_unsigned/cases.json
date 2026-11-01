@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project_id": "04_signed_unsigned",
+  "cases": [
+    {
+      "name": "observe_short_conversion",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout_regex": "\\AShort int is:-?\\d+\\nShort unsigned int is: 50000\\n\\Z",
+      "expected_on_msvc_16_bit_short": "Short int is:-15536\nShort unsigned int is: 50000\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

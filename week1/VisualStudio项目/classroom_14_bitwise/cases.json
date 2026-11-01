@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project_id": "14_bitwise",
+  "cases": [
+    {
+      "name": "bit_masks",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "~15 = -16\n15 & 21 = 5\n15 ^ 21 = 26\n15 | 21 = 31\nnTest = 9\nAfter set the position 4 to 1, nTest = 25\nAfter set the position 4 to 0, nTest = 9\nAfter flip, nTest = 65526\nLow 16 bits: 1111111111110110\n",
+      "expected_environment": "MSVC two-complement int"
+    }
+  ],
+  "execution_status": "not_run"
+}

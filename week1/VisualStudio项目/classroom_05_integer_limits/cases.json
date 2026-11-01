@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "project_id": "05_integer_limits",
+  "cases": [
+    {
+      "name": "platform_limits",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout_regex": "\\AMin of short is: -\\d+\\nMax of short is: \\d+\\nMin of int is: -\\d+\\nMax of int is: \\d+\\nMin of long is: -\\d+\\nMax of long is: \\d+\\nMax of unsigned short is: \\d+\\nMax of unsigned int is: \\d+\\nMax of unsigned long is: \\d+\\n\\Z",
+      "assertions": [
+        "signed_min < 0",
+        "signed_max > 0",
+        "unsigned_max > signed_max_for_corresponding_type"
+      ]
+    }
+  ],
+  "execution_status": "not_run"
+}

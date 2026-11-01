@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "program_id": "04_narcissistic",
+  "source_sha256": "20f286d0320cbcb310c7f3fee4620bd8e704f0b7acb4bfaedef9c68dff5463eb",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "narcissistic_sample",
+      "stdin": "153\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter a three-digit integer: 153 is a narcissistic number.\nAll three-digit narcissistic numbers: 153 370 371 407\n"
+    },
+    {
+      "name": "not_narcissistic",
+      "stdin": "100\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter a three-digit integer: 100 is not a narcissistic number.\nAll three-digit narcissistic numbers: 153 370 371 407\n"
+    },
+    {
+      "name": "not_three_digits",
+      "stdin": "99\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter a three-digit integer: Input must be an integer from 100 to 999.\n"
+    },
+    {
+      "name": "invalid_input",
+      "stdin": "abc\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter a three-digit integer: Input must be an integer from 100 to 999.\n"
+    }
+  ]
+}

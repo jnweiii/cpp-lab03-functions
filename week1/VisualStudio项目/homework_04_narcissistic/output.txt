@@ -1,0 +1,2 @@
+Enter a three-digit integer: 153 is a narcissistic number.
+All three-digit narcissistic numbers: 153 370 371 407

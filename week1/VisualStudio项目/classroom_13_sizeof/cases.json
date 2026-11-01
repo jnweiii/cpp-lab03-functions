@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project_id": "13_sizeof",
+  "cases": [
+    {
+      "name": "actual_type_sizes",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout_regex": "\\Asizeof\\(short\\)= [1-9]\\d*\\nsizeof\\(unsigned short\\)= [1-9]\\d*\\nsizeof\\(int\\)= [1-9]\\d*\\nsizeof\\(unsigned int\\)= [1-9]\\d*\\nsizeof\\(long\\)= [1-9]\\d*\\nsizeof\\(unsigned long\\)= [1-9]\\d*\\nsizeof\\(float\\)= [1-9]\\d*\\nsizeof\\(double\\)= [1-9]\\d*\\nsizeof\\(long double\\)= [1-9]\\d*\\nsizeof\\(char\\)= 1\\n\\Z",
+      "assertions": [
+        "sizeof(char)==1",
+        "record implementation-specific remaining sizes"
+      ]
+    }
+  ],
+  "execution_status": "not_run"
+}

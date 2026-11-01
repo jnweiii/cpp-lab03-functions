@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "program_id": "07_rabbits",
+  "source_sha256": "1bd2c6026962dd31d2b6810aaecc3ac212b501dbd730b0378fec94506f5293e2",
+  "requirements_source": "课件02第38页与教师循环/变量替换更正",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "all_twenty_months",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "Month  Pairs  Rabbits\n1      1      2\n2      1      2\n3      2      4\n4      3      6\n5      5      10\n6      8      16\n7      13      26\n8      21      42\n9      34      68\n10      55      110\n11      89      178\n12      144      288\n13      233      466\n14      377      754\n15      610      1220\n16      987      1974\n17      1597      3194\n18      2584      5168\n19      4181      8362\n20      6765      13530\n",
+      "independent_oracle": "Python previous/current pair recurrence; final 6765 pairs and 13530 rabbits"
+    }
+  ]
+}

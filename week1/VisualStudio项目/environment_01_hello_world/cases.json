@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project_id": "01_hello_world",
+  "cases": [
+    {
+      "name": "hello_world",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "Hello World\n"
+    }
+  ],
+  "execution_status": "not_run"
+}

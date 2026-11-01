@@ -1,3 +1,0 @@
-Enter integer a, real b and exponent m: Integer a^m: 8
-Real a^m: 8
-Real b^m: 15.625

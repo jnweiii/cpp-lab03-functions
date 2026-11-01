@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "program_id": "03_palindrome",
+  "source_sha256": "9a9ad8ab9494802d6e1063aa888a3c0b6c81c1fe87d2608d1b142c415924be26",
+  "requirements_source": "实验课件02-C++简单程序设计，第38页",
+  "stdout_encoding": "UTF-8",
+  "execution_status": "not_run",
+  "cases": [
+    {
+      "name": "odd_length_sample",
+      "stdin": "12321\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: 12321 is a palindrome.\n"
+    },
+    {
+      "name": "even_length",
+      "stdin": "1221\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: 1221 is a palindrome.\n"
+    },
+    {
+      "name": "not_palindrome",
+      "stdin": "12345\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: 12345 is not a palindrome.\n"
+    },
+    {
+      "name": "zero",
+      "stdin": "0\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: 0 is a palindrome.\n"
+    },
+    {
+      "name": "negative_integer",
+      "stdin": "-121\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: -121 is not a palindrome.\n"
+    },
+    {
+      "name": "largest_long_long",
+      "stdin": "9223372036854775807\n",
+      "expected_exit_code": 0,
+      "expected_stdout": "Enter an integer: 9223372036854775807 is not a palindrome.\n"
+    },
+    {
+      "name": "invalid_input",
+      "stdin": "abc\n",
+      "expected_exit_code": 1,
+      "expected_stdout": "Enter an integer: Invalid integer input.\n"
+    }
+  ]
+}

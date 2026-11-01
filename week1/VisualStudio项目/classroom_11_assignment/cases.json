@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project_id": "11_assignment",
+  "cases": [
+    {
+      "name": "assignment_and_increment",
+      "stdin": "",
+      "expected_exit_code": 0,
+      "expected_stdout": "ival1= 1\nival2= 2\nival1= 97\nival2= 0\nfval= 0\ncval= a\nival3= 8\nfval= 8\nival1 = 97, ival2 = 0\nival2 = -ival1++, ival1= 98, ival2 = -97\nival1 = ++ival2+ival1, ival1= 2\n",
+      "expected_environment": "MSVC UTF-8/basic ASCII execution characters"
+    }
+  ],
+  "execution_status": "not_run"
+}
