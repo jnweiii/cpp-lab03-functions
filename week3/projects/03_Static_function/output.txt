@@ -1,0 +1,7 @@
+Print: s=1
+constructor: a=1
+constructor: a=1
+Print: s=4
+Print: s=5
+constructor: a=1
+Print: s=7

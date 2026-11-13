@@ -1,0 +1,7 @@
+Initially: 0
+One object: 1
+Two objects: 2
+After copy: 3
+After assignment: 3
+Inner scope ended: 1
+All scopes ended: 0

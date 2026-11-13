@@ -1,0 +1,10 @@
+StudentNo=1, count=1
+StudentNo=1, count=2
+StudentNo=2, count=2
+StudentNo=1, count=3
+StudentNo=2, count=3
+StudentNo=3, count=3
+StudentNo=1, count=4
+StudentNo=2, count=4
+StudentNo=3, count=4
+StudentNo=4, count=4

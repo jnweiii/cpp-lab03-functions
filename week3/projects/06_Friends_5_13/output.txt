@@ -1,0 +1,4 @@
+Initial: 0
+After Y::g: 1
+After Z::f: 6
+After h: 16

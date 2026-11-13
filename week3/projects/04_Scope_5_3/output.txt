@@ -1,0 +1,3 @@
+Before: x=5, y=7
+myFunction: x=5, y=10
+After: x=5, y=7

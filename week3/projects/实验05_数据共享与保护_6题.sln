@@ -1,0 +1,35 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "01_Ctype_static", "01_Ctype_static\01_Ctype_static.vcxproj", "{A54ABE3F-B098-5881-8EA6-9771FDC26912}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "02_Student_counter", "02_Student_counter\02_Student_counter.vcxproj", "{93D6AFC9-0019-5FEF-876D-8B672710C474}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "03_Static_function", "03_Static_function\03_Static_function.vcxproj", "{51A1E330-69C2-5199-8914-C29CB8113B8E}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "04_Scope_5_3", "04_Scope_5_3\04_Scope_5_3.vcxproj", "{9784797B-8E04-5DDA-B079-77ACE57AF07F}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "05_Cat_5_7", "05_Cat_5_7\05_Cat_5_7.vcxproj", "{F0B65EE8-B757-55C9-B7EC-358AF923A8A4}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "06_Friends_5_13", "06_Friends_5_13\06_Friends_5_13.vcxproj", "{F2DD8C8D-D818-5F0C-8423-A5C0825DDBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A54ABE3F-B098-5881-8EA6-9771FDC26912}.Debug|x64.ActiveCfg = Debug|x64
+		{A54ABE3F-B098-5881-8EA6-9771FDC26912}.Debug|x64.Build.0 = Debug|x64
+		{93D6AFC9-0019-5FEF-876D-8B672710C474}.Debug|x64.ActiveCfg = Debug|x64
+		{93D6AFC9-0019-5FEF-876D-8B672710C474}.Debug|x64.Build.0 = Debug|x64
+		{51A1E330-69C2-5199-8914-C29CB8113B8E}.Debug|x64.ActiveCfg = Debug|x64
+		{51A1E330-69C2-5199-8914-C29CB8113B8E}.Debug|x64.Build.0 = Debug|x64
+		{9784797B-8E04-5DDA-B079-77ACE57AF07F}.Debug|x64.ActiveCfg = Debug|x64
+		{9784797B-8E04-5DDA-B079-77ACE57AF07F}.Debug|x64.Build.0 = Debug|x64
+		{F0B65EE8-B757-55C9-B7EC-358AF923A8A4}.Debug|x64.ActiveCfg = Debug|x64
+		{F0B65EE8-B757-55C9-B7EC-358AF923A8A4}.Debug|x64.Build.0 = Debug|x64
+		{F2DD8C8D-D818-5F0C-8423-A5C0825DDBFB}.Debug|x64.ActiveCfg = Debug|x64
+		{F2DD8C8D-D818-5F0C-8423-A5C0825DDBFB}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+EndGlobal
