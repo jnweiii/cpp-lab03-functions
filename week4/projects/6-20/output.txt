@@ -1,0 +1,6 @@
+after copy: original=3, copy=5
+default radius: 0
+after assignment: original=4, assigned=3
+after self-assignment: 3
+area at radius 4: 50.27
+radius must be nonnegative; radius=4
